@@ -34,7 +34,7 @@ class CowinDashboard extends Component {
       'https://apis.ccbp.in/covid-vaccination-data'
 
     const response = await fetch(covidVaccinationDataApiUrl)
-    if (response.ok) {
+    if (response.ok === true) {
       const fetchedData = await response.json()
       const updatedData = {
         last7DaysVaccination: fetchedData.last_7_days_vaccination.map(
