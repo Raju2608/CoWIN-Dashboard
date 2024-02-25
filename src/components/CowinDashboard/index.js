@@ -87,7 +87,7 @@ class CowinDashboard extends Component {
           vaccinationByGenderDetails={vaccinationData.vaccinationByGender}
         />
         <VaccinationByAge
-          vaccinationByAgeDetails={vaccinationData.VaccinationByAge}
+          vaccinationByAgeDetails={vaccinationData.vaccinationByAge}
         />
       </>
     )
